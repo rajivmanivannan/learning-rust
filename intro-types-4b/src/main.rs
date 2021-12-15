@@ -61,21 +61,4 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
 
-
-//Compound Types
-//Compound types can group multiple values into one type.
-// Rust has two primitive compound types: tuples and arrays.
-
-    //A Tuple is a general way of grouping together a number of values with a variety of types into one compound type. 
-    //Tuples have a fixed length: once declared, they cannot grow or shrink in size.
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
-    
-    //Array
-    let a = [1, 2, 3, 4, 5];
-    //Here, i32 is the type of each element. 
-    //After the semicolon, the number 5 indicates the array contains five elements.
-
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
-    
-
 }
